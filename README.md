@@ -1,4 +1,4 @@
-### Summary
+## Summary
 
 Weather app created with React.
 
