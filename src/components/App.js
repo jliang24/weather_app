@@ -3,7 +3,8 @@ import weatherapi from "../api/weatherapi";
 import SearchBar from "./SearchBar";
 import WeatherDetail from "./WeatherDetail";
 import DaysList from "./DaysList";
-import key from "../config/keys";
+const key = process.env.REACT_APP_KEY;
+console.log(key);
 
 class App extends React.Component {
   state = {weather: null, error: null, forecast: null, coords: null};
