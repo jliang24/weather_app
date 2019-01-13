@@ -2,6 +2,14 @@
 
 Weather app created with React.
 
+You can view the site here: [Weather App](https://liang-weather-app.herokuapp.com/)
+
+## Features
+
+- Uses geolocation to determine approximate location
+- Allows users to get current weather through ZIP or City
+- Allows users to see next five day cycle
+
 ## Skills used
 
 - React
@@ -9,9 +17,3 @@ Weather app created with React.
 - SemanticUI CSS
 - Error handling
 - Search bar input
-
-## Features
-
-- Uses geolocation to determine current location
-- Allows users to get current weather through ZIP or City
-- Allow users to see next five days
